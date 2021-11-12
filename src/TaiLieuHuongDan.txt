@@ -1,0 +1,9 @@
++ Vào trang tensorflow.org -> GitHub -> Find a repository -> Gõ vào chữ: tfjs-models -> Sau khi nó hiện ra thư viện tfjs-models click vô ->
++ Ta sẽ chỉ tải 2 thư viện. Thứ 1 là MobileNet là phân loại ảnh theo nhãn và dựa trên database. Thứ 2 là KNN Classifier phân loại ảnh dựa vào 
+thông tin mà chúng ta trả về từ MobileNet và nó phân loại ảnh. 
++ Chúng ta sẽ đẩy dữ liệu lên cho MobileNet để nó phân tích qua database sau đó nó trả lại thông tin cho chúng ta. Thông tin này ta sẽ đưa cho thằng
+KNN Classifier học
++ Vào github.com/gold/howler.js/ Đây là thư viện mà mỗi khi ta dơ tay lên mặt nó sẽ phát ra âm thanh mắng chúng ta. Gõ npm install howler
++ Sau đó cài thêm thư viện @tensorflow/tfjs: npm install @tensorflow/tfjs
++ Nếu gặp lỗi Handpose tfjs Error - No backend found in registry vào link sau coi cách giải quyết https://stackoverflow.com/questions/62134812/handpose-tfjs-error-no-backend-found-in-registry
++ Cài thêm: npm install --save @mycv/f8-notification
